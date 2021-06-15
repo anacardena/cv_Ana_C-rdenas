@@ -5,20 +5,37 @@ display: flex;
     color: white;
     background-size: contain;
 	background: black;
-	font-family: arial;
+	font-family: Poppins SemiBold;
 }
 .Container_Texto p {
-  color: white;
-  font-family: arial;
   font-size: 25px;
 	}
+.Container_Texto {
+	margin:150px; 
+  position: relative;
+    display: inline-block;
+ 
+	}
+#sakura{
+
+	 width: 100px;
+  height: 100px;
+  margin: 15px;
+}
 .Container_Texto h1{
-  color: white;
-  font-family: arial;
-  font-size: 85px;
+  font-size: 105px;
 	}	
+.Container_Texto h2{
+  font-size: 50px;
+	}		
+	#inst, #face {
+  width: 60px;
+  height: 60px;
+  
+}  
 .Container_Inicio img {
-	width: 800px;
-	height: 860px;
-	
+	width:750px;
+	height: 820px;
+	margin-left: 60px; 
+
 }

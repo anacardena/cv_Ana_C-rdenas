@@ -1,17 +1,69 @@
-.Container_Sobremi{
+.Container_Mensaje{
 display: flex;
     width: 100%;
     height: 30. 3vh;
     color: white;
     background-size: contain;
-    background: #3D3E4B;
+    background-image: linear-gradient(90deg, #6c6e5c 0, #565654 25%, #3d3e4b 50%, #212842 75%, #00163a 100%);;
     font-family: Poppins SemiBold;
 }
-.Container_Texto p {
+.Container_Frase  {
+     width: 50%;
+    height: 30. 3vh;
+     }
+ .Container_formulario {
+  width: 50%;
+    height: 30. 3vh;
+    }    
+.Container_Frase p {
   font-size: 25px;
   font-family: Poppins SemiBold;
     }
-.Container_Texto h1,h2{
+.Container_Frase h1,h2{
   font-size: 45px;
   font-family: Poppins SemiBold;
-    }   
+    }  
+
+
+  #name {
+    width: 430px;
+    height: 40px;
+    background-image: linear-gradient(90deg, #ffdeda 0, #fcd1cf 25%, #f3c2c2 50%, #eab3b6 75%, #e1a7ad 100%);
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: Poppins SemiBold;
+  }  
+
+  #mail {
+    color: black;
+    font-size: 20px;
+    width: 430px;
+    height: 40px;
+    background-image: linear-gradient(90deg, #ffdeda 0, #fcd1cf 25%, #f3c2c2 50%, #eab3b6 75%, #e1a7ad 100%);
+    border-radius: 15px;
+    font-family: Poppins SemiBold;
+  }  
+  #msg {
+    color: black;
+    font-size: 20px;
+    width: 430px;
+    height: 200px;
+    background-image: linear-gradient(90deg, #ffdeda 0, #fcd1cf 25%, #f3c2c2 50%, #eab3b6 75%, #e1a7ad 100%);
+    border-radius: 15px;
+    font-family: Poppins SemiBold;
+  }  
+ #principal {
+    width: 50px;
+  height:50px;
+ }    
+#inst, #face {
+  width: 60px;
+  height: 60px;
+  
+}  
+button img {
+  width: 60px;
+  height: 60px;
+  
+}      

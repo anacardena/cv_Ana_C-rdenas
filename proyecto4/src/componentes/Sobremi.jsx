@@ -6,8 +6,9 @@ function Sobremi () {
         <div className="Container_Sobremi">
         <div className="Container_Texto">
          <h1> Sobre mí</h1>
-         <p> actualmente tengo 17 años, soy bachiller egresada del Colegio General Gustavo Rojas Pinilla I.E.D  </p>
-        <p> En noveno grado me certifiqué en el programa Hermes de la cámara de comercio Bogotá como conciliadora</p>
+         <p> Actualmente tengo 17 años, soy bachiller egresada del Colegio General Gustavo Rojas Pinilla I.E.D  
+        En noveno grado me certifiqué en el programa Hermes de la cámara de comercio Bogotá como conciliadora</p>
+        <p> En el primer trimestre del 2021 me certifiqué en el SENA con el programa "Atenciones básicas a personas con afectación de Salud"</p>
        </div>
        <div className="cuadros">
        <div className="cuadro1">
@@ -15,7 +16,7 @@ function Sobremi () {
        <p> Me apasiona los instrumentos musicales por tal motivo se tocar algunos, en mis ratos libres me gusta leer, pintar, salir a caminar y hacer ejercicio. Me considero una persona muy artística </p> 
         </div>
         <div className="cuadro2">
-       <h3> Mis habilidades blandas</h3>
+       <h2> Mis habilidades blandas</h2>
        <ul> 
        <li>Soy una persona capaz de relacionarse y comunicarse de manera efectiva con otros.</li>
        <li>Gestión de conflictos</li>
