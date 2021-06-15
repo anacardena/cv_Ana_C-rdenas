@@ -1,4 +1,5 @@
-/*export {default as Title} from "./Title.jsx"
-export {default as Todo } from "./Todo.js"
-export {default as Cuerpo } from "./Cuerpo.js"
-export {default as Footer } from "./Footer.js"
+export {default as Inicio } from "./Inicio.jsx"
+export {default as Sobremi} from "./Sobremi.jsx"
+export {default as Habilidades} from "./Habilidades.jsx"
+export {default as Mensaje} from "./Mensaje.jsx"
+

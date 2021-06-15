@@ -1,13 +1,14 @@
-/*import React from 'react'
-import '../utils/css/Todo.estilos.css'
-import Ana from '../utils/images/imagen1.jpeg'
+import React from 'react'
+import '../utils/css/Inicio.estilos.css'
+import Ana from '../utils/images/foto.jpeg'
 
-function Todo () {
+function Inicio () {
     return (
-        <div className="Container_Cabecera">
+        <div className="Container_Inicio">
         <div className="Container_Texto">
-         <h1> Cabecera</h1>
-        <p> Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Asperiores voluptates, repudiandae at, aperiam explicabo culpa numquam dicta, voluptatum porro, laboriosam alias maiores atque velit corporis molestias! Voluptates, repudiandae officia at.</p>
+         <h1> Ana Cárdenas</h1>
+         <h2> ¿quién soy?</h2>
+        <p> hola Soy Ana Briyid Cárdenas Bejarano tengo 17 años de edad y actualmente estoy estudiando un técnico en programación  y desarrollo web </p>
        </div>
        <img src={Ana} alt="hola esta es Ana"/>
         </div>
@@ -15,4 +16,4 @@ function Todo () {
     )
 }
 
-export default Todo
+export default Inicio
