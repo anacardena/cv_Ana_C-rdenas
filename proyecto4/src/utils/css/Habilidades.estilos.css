@@ -10,15 +10,18 @@ display: flex;
 .Container_Texto p {
   color: white;
   font-family: Poppins SemiBold;
-  font-size: 25px;
+  font-size: 20px;
 	}
 .Container_Texto h1{
   color: white;
   font-family: Poppins SemiBold;
-  font-size: 65px;
+  font-size: 52px;
 	}	
-.Container_Habilidades img {
-	width: 200px;
-	height: 260px;
-	
+#imagenes img {
+	width: 130px;
+	height: 120px;
+	margin: 10px;
+}
+#imagenes {
+	margin: 150px;
 }
