@@ -19,12 +19,13 @@ function Inicio () {
         <div className="Container_Texto">
         <h1> Ana Cárdenas</h1>
          <h2> ¿quién soy?</h2>
-        <p> Hola Soy Ana Briyid Cárdenas Bejarano tengo 17 años de edad y actualmente estoy estudiando un técnico en programación  y desarrollo web en el instituto Kuepa. </p>
+        <div id="parrafo"><p> Hola Soy Ana Briyid Cárdenas Bejarano tengo 17 años de edad y actualmente estoy estudiando un técnico en programación  y desarrollo web en el instituto Kuepa. </p></div>
+       <div id="enlaces">
        <a href="https://www.instagram.com/anabcardenasb/?hl=es-la"><img id="inst"  src={instagram} /> </a>
       <a href="https://www.facebook.com/profile.php?id=100005098847657"><img id="face" src={facebook} /> </a>
       <a href="https://github.com/anacardena?tab=repositories"><img id="git" src={git} /> </a>
       <a href="https://www.linkedin.com/in/ana-briyid-cardenas-b-6437a5208/"><img id="linke" src={linke} /> </a>
-    
+    </div>
        </div>
         </div>
 

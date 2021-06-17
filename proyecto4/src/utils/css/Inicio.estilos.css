@@ -52,12 +52,20 @@ transition: width .3s
 	transition: width .3s;
 }
 /*estilos para la información del lado derecho*/
-.Container_Texto p {
+#parrafo p {
   font-size: 25px;
+  text-align: justify;
 	}
+#enlaces{
+	margin: 40px;
+}
+#parrafo{
+	padding: 15px;
+	width: 110vh;
+}	
 .Container_Inicio .Container_Texto {
 
-	top: 10%;
+	top: 20%;
 	left: 35%;
 	margin:150px; 
   position: relative;
@@ -78,10 +86,10 @@ transition: width .3s
   
 }  
 /*estilos para los títulos*/
-.Container_Texto h1{
-  font-size: 105px;
+.Container_Texto  h1{
+  font-size: 40px;
 	}	
 .Container_Texto h2{
-  font-size: 50px;
+  font-size: 30px;
 	}		
 	

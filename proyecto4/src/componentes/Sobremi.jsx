@@ -6,9 +6,9 @@ function Sobremi () {
         <div id="sobremi" className="Container_Sobremi">
         <div className="Container_Texto">
          <h1> Sobre mí</h1>
-         <p>  Tengo 17 años, soy bachiller egresada del Colegio General Gustavo Rojas Pinilla I.E.D.  
+         <div id="parrafo"><p>  Tengo 17 años, soy bachiller egresada del Colegio General Gustavo Rojas Pinilla I.E.D.  
         En noveno grado me certifiqué en el programa Hermes de la cámara de comercio Bogotá como conciliadora.</p>
-        <p> En el primer trimestre del 2021 me certifiqué en el SENA con el programa "Atenciones básicas a personas con afectación de Salud" y para el mes de agosto me certificaré como "Técnica en programación y desarrollo web front-end" en el instituto Kuepa.</p>
+        <p> En el primer trimestre del 2021 me certifiqué en el SENA con el programa "Atenciones básicas a personas con afectación de Salud" y para el mes de agosto me certificaré como "Técnica en programación y desarrollo web front-end" en el instituto Kuepa.</p> </div>
        </div>
        <div className="cuadros">
        <div className="cuadro1">

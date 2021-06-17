@@ -7,14 +7,11 @@ display: flex;
 	background: black;
 	font-family: Poppins SemiBold;
 }
-#imagenes {
-	
-	width: 40%;
-    height: 30. 3vh;
-}
+
+/*estilos para la sección izquierda*/
 .Container_Texto  {
      width: 60%;
-    height: 30. 3vh;
+  margin-top:5%;
      }
  
 .Container_Texto p {
@@ -27,13 +24,25 @@ display: flex;
   font-family: Poppins SemiBold;
   font-size: 42px;
 	}
+#imagenes{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#imagenes h3{
+	font-size: 22px;
+}
+/*estilos para los hover*/
 .box {
+	align-items: center;
+	display: flex;
 	width: 33%;
-	height: 30vh;
+	height: 28vh;
+	justify-content: center;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
-	margin: 1.5%;
+	margin: 0.5%;
 	border-radius: 10px;
 }		
 .box img {
@@ -44,7 +53,7 @@ display: flex;
 }
 .box .hover{
 	width: 0%;
-	height: 50vh;
+	height: 29vh;
 	background-color: rgb(56, 53, 53, 0.568);
 	position: absolute;
 	top:0;

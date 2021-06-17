@@ -10,7 +10,7 @@ display: flex;
 .Container_Texto{
 width: 60%;
 height: 30. 3vh;
-margin: 120px;
+margin: 70px;
    
 }
 .cuadros {
@@ -26,13 +26,13 @@ margin: 120px;
     background-image: linear-gradient(180deg, #ffc0a9 0, #ffb5a6 16.67%, #ffa9a2 33.33%, #f29d9d 50%, #de9297 66.67%, #cc8891 83.33%, #bb7f8b 100%);
    margin: 25px;
      }   
-.Container_Texto p {
+#parrafo p {
   font-size: 25px;
 
 
     }
 .Container_Texto h1{
-  font-size: 45px;
+  font-size: 50px;
  }
     
  li,p {

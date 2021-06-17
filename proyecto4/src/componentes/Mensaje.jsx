@@ -17,10 +17,10 @@ function Mensaje () {
        </div>
        <div className="Container_formulario">
       <h2> Mis redes sociales</h2>
-       <img id="inst" href="https://www.instagram.com/anabcardenasb/?hl=es-la" src={instagram} />
-       <img id="face" href="https://www.facebook.com/profile.php?id=100005098847657" src={facebook} />
-       <img id="linke" href="https://www.linkedin.com/in/ana-briyid-cardenas-b-6437a5208/" src={linke} />
-       <img id="git" href="https://github.com/anacardena?tab=repositories" src={git} />
+       <a href="https://www.instagram.com/anabcardenasb/?hl=es-la"><img id="inst"  src={instagram} /></a>
+      <a href="https://www.facebook.com/profile.php?id=100005098847657"> <img id="face"  src={facebook} /> </a>
+       <a href="https://www.linkedin.com/in/ana-briyid-cardenas-b-6437a5208/"><img id="linke" src={linke} /> </a>
+      <a href="https://github.com/anacardena?tab=repositories"> <img id="git"  src={git} /> </a>
      <form  action="mailto:abcardenasb@gmail.com" method="post" enctype="text/plain" >
     <p><input type="text" id="name" name="user_name" placeholder="Escribe tu nombre"></input></p>
     <p><input type="email" id="mail" name="user_mail" placeholder="Escribe tu correo"></input></p>

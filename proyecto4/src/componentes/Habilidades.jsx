@@ -28,7 +28,7 @@ Con la disposición de crecer en mi vida Laboral y fortalecer mi habilidades  pe
 
        {/*este es el contenedor texto al de la columna derecha*/}
        <div id="imagenes">
-       Actualmente  utilizo diferentes lenguajes de programación:
+       <h3>Actualmente  utilizo diferentes lenguajes de programación:</h3>
        {/*este es el contenedor texto al de la pimera imagen*/}
        <div class="box">
        <img src={html} />
