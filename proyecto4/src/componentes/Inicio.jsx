@@ -1,6 +1,5 @@
 import React from 'react'
 import '../utils/css/Inicio.estilos.css'
-import Ana from '../utils/images/foto.jpeg'
 import sakura from '../utils/images/icons8-sakura-48.png'
 import instagram from '../utils/images/instagram.png'
 import facebook from '../utils/images/facebook.png'
@@ -9,8 +8,14 @@ import linke from '../utils/images/icons8-linkedin-64.png'
 function Inicio () {
     return (
         <div className="Container_Inicio">
+    {/*menú*/}
+        <div className="enlaces_internos">
         <a href="https://designificados.com/flor-de-cerezo/#:~:text=La%20flor%20de%20cerezo%20es,ca%C3%ADdos%20cuando%20comienza%20la%20primavera."><img id="sakura" src={sakura}/></a>
-        <img src={Ana} alt="hola esta es Ana"/>
+        <li><a href="#sobremi" class="link">Sobre mí</a> </li>
+        <li><a href="#habilidades" class="link">Habilidades</a></li> 
+        <li> <a href="#contacto" class="link">Contacto</a> </li>
+        </div>
+          {/*información y redes*/}
         <div className="Container_Texto">
         <h1> Ana Cárdenas</h1>
          <h2> ¿quién soy?</h2>

@@ -4,34 +4,38 @@ display: flex;
     height: 30. 3vh;
     color: white;
     background-size: contain;
-    background-image: linear-gradient(90deg, #6c6e5c 0, #565654 25%, #3d3e4b 50%, #212842 75%, #00163a 100%);
+    background-image:  linear-gradient(90deg, #6c6e5c 0, #565654 25%, #3d3e4b 50%, #212842 75%, #00163a 100%) ;
     font-family: Poppins SemiBold;
 }
 .Container_Texto{
-width: 50%;
-    height: 30. 3vh;
+width: 60%;
+height: 30. 3vh;
+margin: 120px;
+   
 }
 .cuadros {
-    /*margin-right:100px;*/
-    width: 50%;
+    
+    width: 40%;
     height: 30. 3vh;
 }
  
  .cuadro1 , .cuadro2 {
     border-radius: 15px;
     width:600px;
-    height: 380px;
+    height: 360px;
     background-image: linear-gradient(180deg, #ffc0a9 0, #ffb5a6 16.67%, #ffa9a2 33.33%, #f29d9d 50%, #de9297 66.67%, #cc8891 83.33%, #bb7f8b 100%);
-   margin-bottom: 20px;
+   margin: 25px;
      }   
 .Container_Texto p {
   font-size: 25px;
 
+
     }
 .Container_Texto h1{
-  font-size: 35px;
+  font-size: 45px;
  }
     
  li,p {
     font-size: 20px;
+    margin: 15px;
  }    

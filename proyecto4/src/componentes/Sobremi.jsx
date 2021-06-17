@@ -3,7 +3,7 @@ import '../utils/css/Sobremi.estilos.css'
 
 function Sobremi () {
     return (
-        <div className="Container_Sobremi">
+        <div id="sobremi" className="Container_Sobremi">
         <div className="Container_Texto">
          <h1> Sobre mí</h1>
          <p>  Tengo 17 años, soy bachiller egresada del Colegio General Gustavo Rojas Pinilla I.E.D.  
