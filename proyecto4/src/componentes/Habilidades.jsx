@@ -15,6 +15,7 @@ function Habilidades () {
         Además de esto trabajo con aspectos de diseño visual o experiencia de usuario para interpretar y traducir los diseños a código.</p>
         <p>Mi responsabilidad como desarrolladora  front-end está en traducir el diseño, lograr una interfaz de usuario accesible y asegurar la correcta usabilidad del sistema permitiendo así  que estos medios digitales puedan ser óptimos.
 Con la disposición de crecer en mi vida Laboral y fortalecer mi habilidades  personales y sociales.</p>
+       <div id="lista">
        <p>     
          Tengo habilidades en:
          <ul>
@@ -24,6 +25,7 @@ Con la disposición de crecer en mi vida Laboral y fortalecer mi habilidades  pe
 	<li>Manejo de frameworks   (react js)</li>
 	</ul>
 	    </p>
+      </div>
        </div>
 
        {/*este es el contenedor texto al de la columna derecha*/}

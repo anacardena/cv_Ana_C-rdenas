@@ -13,12 +13,19 @@ height: 30. 3vh;
 margin: 70px;
    
 }
+#parrafo p {
+  font-size: 25px;
+    }
+.Container_Texto h1{
+  font-size: 50px;
+ }
+/*etilos para la columna derecha */
 .cuadros {
     
     width: 40%;
     height: 30. 3vh;
 }
- 
+ /*etilos para los cuadros */
  .cuadro1 , .cuadro2 {
     border-radius: 15px;
     width:600px;
@@ -26,16 +33,63 @@ margin: 70px;
     background-image: linear-gradient(180deg, #ffc0a9 0, #ffb5a6 16.67%, #ffa9a2 33.33%, #f29d9d 50%, #de9297 66.67%, #cc8891 83.33%, #bb7f8b 100%);
    margin: 25px;
      }   
-#parrafo p {
-  font-size: 25px;
 
-
-    }
-.Container_Texto h1{
-  font-size: 50px;
- }
     
  li,p {
     font-size: 20px;
     margin: 15px;
  }    
+ /*etilos para lel responsivo */
+ @media only screen and (min-width: 768px) and (max-width: 1160px) 
+{
+.Container_Texto{
+width: 60%;
+height: 30. 3vh;
+margin: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 10px;  
+}
+#parrafo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  hyphens: auto;
+  word-break: break-all;
+  width: auto;
+}
+#parrafo p {
+  font-size: 15px;
+    }
+.Container_Texto h1{
+  font-size: 15px;
+ }
+/*etilos para la columna derecha */
+.cuadros {
+    margin-left: 80px;
+    width:80%;
+    height: 30. 3vh;
+}
+ /*etilos para los cuadros */
+ .cuadro1 , .cuadro2 {
+    border-radius: 15px;
+    width:300px;
+    height: 230px;
+    background-image: linear-gradient(180deg, #ffc0a9 0, #ffb5a6 16.67%, #ffa9a2 33.33%, #f29d9d 50%, #de9297 66.67%, #cc8891 83.33%, #bb7f8b 100%);
+   margin: 1px;
+
+  text-align: center;
+     }   
+
+    
+ .cuadros li,p {
+    font-size: 10px;
+    margin: 10px;
+ }    
+ .cuadros h2{
+  font-size: 20px;
+ }
+}
+ 

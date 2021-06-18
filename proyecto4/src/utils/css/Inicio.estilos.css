@@ -66,7 +66,7 @@ transition: width .3s
 .Container_Inicio .Container_Texto {
 
 	top: 20%;
-	left: 35%;
+	left: 30%;
 	margin:150px; 
   position: relative;
     display: inline-block;
@@ -75,8 +75,8 @@ transition: width .3s
 	/*estilos para los íconos*/
 #sakura{
 
-	 width: 100px;
-     top: 30%;
+	 width: 150px;
+     top: 32%;
      left: 5%;
 }
 #inst, #face ,#git ,#linke  {
@@ -92,4 +92,66 @@ transition: width .3s
 .Container_Texto h2{
   font-size: 30px;
 	}		
+/*estilos para el eresponisvo*/	
+@media only screen and (min-width: 768px) and (max-width: 1160px) 
+{
+	.Container_Inicio .Container_Texto {
+	left: 1%;}
+	.Container_Inicio{
+    background-size: cover;
+ background-image: url('../images/foto2.jpeg') ; 
+ 
+
+}
+#sakura{
+    width: 100px;
+     top: 30%;
+     left: 5%;
+}
+/*menú*/
+
+.enlaces_internos {
+	top: 8%;
+	left: 33%;
+}
+
+li a {
 	
+	font-size: 15px;
+	padding: 0 14px;
+}
+
+
+/*estilos para la información del lado derecho*/
+.Container_Texto {
+
+	top: 5vh;
+	left: 1%;
+	margin:25px; 
+   
+	}
+#parrafo p {
+  font-size: 5px;
+  
+	}
+#enlaces{
+	margin: 5px;
+}
+#parrafo{
+	padding: 1px;
+	width: 150vh;
+}		
+#inst, #face ,#git ,#linke  {
+  width: 5px;
+  height: 5px;
+  margin: 2px;
+  
+}  
+	/*estilos para los títulos*/
+.Container_Texto  h1{
+  font-size: 20px;
+	}	
+.Container_Texto h2{
+  font-size: 15px;
+	}		
+}
