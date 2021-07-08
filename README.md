@@ -4,7 +4,7 @@ description: hola soy Ana Cárdenas Bienvenidos a mi portafolio
 
 # PORTFOLIO
 
-Soy estudiante del instituto kuepa donde hago un técnico Laboral en programación y Desarrollo front-end
+Soy estudiante del instituto kuepa donde hago un técnico Laboral en programación y Desarrollo front-end.
 
 
 
