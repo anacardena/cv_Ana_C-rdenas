@@ -8,7 +8,7 @@ Soy estudiante del instituto kuepa donde hago un técnico Laboral en programaci�
 
 
 
-## ¿qué escontrarás aquí?
+## ¿qué encontrarás aquí?
 
 aquí encontrarás un desarrollo que habla acerca de mí  realizado con las siguientes tecnologías:
 
